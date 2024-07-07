@@ -1,0 +1,77 @@
+ .open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+  }
+  
+/* nav style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 100px;
+}
+.navh{
+    font-size: 45px;
+    font-weight: 800; 
+}
+span{
+   color: rgb(253, 110, 10);
+}
+nav , ul , li{
+list-style: none;
+margin-left: 50PX;
+}
+nav,ul,li,a{
+    text-decoration: none; 
+}
+.dark2{
+   color: rgb(71, 71, 71);
+}
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+.btn{
+border-radius: 5px;
+background: rgb(253, 110, 10);
+color: rgb(255, 255, 255);
+padding: 18px 35px 19px 36px;
+border:none;
+}
+.h4{
+   color: rgb(71, 71, 71) ;
+   font-size: 45px;
+   font-weight: 600;
+}
+.h1{
+    color: rgb(24, 24, 24);
+  Font-weight: bold;
+  Font-size: 85px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 250px ;
+    background-image: url("../header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.bannercontent{
+    width: 585px; 
+    height: 356px;
+}
+.backgroundimg{
+    background-image: url("../developer.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+/* another way */
+/* .backgroundimg { */
+    background-image: url("../developer.png"), url("../header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+/* } */
