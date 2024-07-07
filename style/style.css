@@ -134,3 +134,24 @@ main{
     padding: 50px 33px 30px 33px;
     margin-top: 50px;
 }
+.resumecontainer{
+    display: flex;
+    gap:25px ;
+    
+
+}
+.footerstyle{
+    display: flex;
+    background-color: rgb(255, 248, 243);
+    gap:100px;
+    padding: 130px 230px;
+}
+    footer input[type="text"] {
+        border-radius: 5px;
+        background: rgb(255, 255, 255);
+        height: 64px;
+        width: 461px;
+        display: block;
+        padding: 10px 20px;
+        margin-bottom: 24px;
+    }
